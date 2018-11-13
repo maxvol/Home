@@ -1,0 +1,5 @@
+alias cartlink="ln -s ~/Carthage ./Carthage"
+alias cartboot="carthage bootstrap --platform iOS --no-build"
+alias cartbuild="carthage build --platform iOS --cache-builds"
+alias cartupdate="carthage update --platform iOS --no-build"
+
